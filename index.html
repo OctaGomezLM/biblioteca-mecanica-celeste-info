@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biblioteca Digital · Orquesta Mecánica Celeste</title>
+  <meta name="description" content="Información sobre la biblioteca privada de partituras de la Orquesta Mecánica Celeste y el tratamiento de datos de su aplicación.">
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <header class="cabecera"><a class="marca" href="./" aria-label="Biblioteca Digital, inicio"><span class="simbolo" aria-hidden="true">♫</span><span>Biblioteca Digital<small>Orquesta Mecánica Celeste</small></span></a><nav aria-label="Principal"><a href="./privacidad/">Privacidad</a></nav></header>
+  <main id="contenido">
+    <section class="portada" aria-labelledby="titulo">
+      <p class="etiqueta">Información de la aplicación</p>
+      <h1 id="titulo">Un catálogo para el repertorio compartido.</h1>
+      <p class="bajada">La Biblioteca Digital de la Orquesta Mecánica Celeste reúne las referencias y los archivos de su colección de partituras. Su acceso está reservado a las personas autorizadas por la biblioteca.</p>
+      <a class="enlace" href="./privacidad/">Cómo se utilizan los datos <span aria-hidden="true">↗</span></a>
+    </section>
+    <section class="seccion" aria-labelledby="funciones">
+      <div><p class="etiqueta">La biblioteca</p><h2 id="funciones">Encontrar, consultar y mantener la colección.</h2></div>
+      <div class="texto"><p>La aplicación permite buscar obras por compositor, país, tipo de obra e instrumentación; consultar fichas y archivos; y generar exportaciones del catálogo en Excel.</p><p>Los roles de lector, administrador y responsable determinan las acciones disponibles. Las correcciones y las cargas se registran en el historial del catálogo.</p><p>El asistente de búsqueda funciona con reglas y consultas a la colección. La aplicación no integra servicios de inteligencia artificial generativa.</p></div>
+    </section>
+    <section class="seccion" aria-labelledby="acceso">
+      <div><p class="etiqueta">Acceso y archivos</p><h2 id="acceso">Ingreso individual con Google.</h2></div>
+      <div class="texto"><p>El ingreso con Google identifica a cada persona. Para acceder al catálogo, su cuenta debe estar autorizada y activa en la biblioteca.</p><p>Los archivos se conservan en Google Drive y los datos del catálogo, en PostgreSQL mediante Supabase. Streamlit aloja la interfaz. Las nuevas cargas tienen una carpeta de destino separada de la colección original.</p><p>La autorización de Drive corresponde a la cuenta responsable de la biblioteca. El ingreso de un compañero no solicita acceso a su Drive personal.</p></div>
+    </section>
+    <aside class="consulta" aria-labelledby="contacto"><p class="etiqueta">Consultas y acceso</p><h2 id="contacto">Contactá a la persona responsable de la biblioteca.</h2><p>Para solicitar acceso o consultar por tus datos, utilizá el correo de asistencia que figura en la pantalla de consentimiento de Google o el contacto de la biblioteca que te proporcionó la invitación.</p></aside>
+  </main>
+  <footer><span>Biblioteca Digital · Orquesta Mecánica Celeste</span><a href="./privacidad/">Política de privacidad</a></footer>
+</body>
+</html>
